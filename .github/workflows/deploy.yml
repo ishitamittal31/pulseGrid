@@ -13,6 +13,14 @@ jobs:
 
     runs-on: ubuntu-latest
 
+    defaults:
+      run:
+        working-directory: backend/pulsegrid-core
+
+    permissions:
+      contents: read
+      packages: write
+
     steps:
 
       - name: Checkout Code
