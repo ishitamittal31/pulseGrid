@@ -25,5 +25,4 @@ public class Responder {
     private String contactNumber;
     private Boolean isAvailable;
 
-
 }

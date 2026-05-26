@@ -13,10 +13,11 @@ public class DataInitializer {
     CommandLineRunner init(ResponderRepository repo) {
         return args -> {
 
-            repo.save(new Responder(null, "Dr Ishita", "ish@gmail.com", "Sr. Doctor", "678272773", true));
-            repo.save(new Responder(null, "Kareena", "kar@gmail.com", "Nurse", "338272773", false));
-            repo.save(new Responder(null, "Dr Sukhman", "skk4@gmail.com", "junior doctor", "998272773", true));
-            repo.save(new Responder(null, "Dr. Trisha", "trish@gmail.com", "Doctor", "99999999", true));
+            repo.save(new Responder(null, "Dr Ishita", "isshh2020@gmail.com", "Sr. Doctor", "678272773", true));
+            repo.save(new Responder(null, "Kareena", "albelichudael@gmail.com", "Nurse", "338272773", true));
+            repo.save(new Responder(null, "Charu", "mittalishita31@gmail.com@gmail.com", "Director", "338272773", true));
+            repo.save(new Responder(null, "Dr Sukhman", "isshh2020@gmail.com", "junior doctor", "998272773", true));
+            repo.save(new Responder(null, "Dr. Trisha", "ishitanmittal@gmail.com", "Doctor", "99999999", true));
         };
     }
 }
